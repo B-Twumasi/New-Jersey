@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  background-color: white;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  text-align: center;
+}
+/* ---- Hero Section --- */
+.hero {
+  flex-direction: column;
+  display: flex;
+  padding: 150px;
+  background-image: url(images/torshov-image.png);
+  background-size: cover;
+  background-position: center;  
+}
+
+h1,
+h2 {
+  display: inline-block;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 8px 16px;
+  background-color: lightblue;
+  font-weight: 400;
+  color: #2304ed;
+}
+
+h1 {
+  background-color: #180675;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+h2 {
+  background-color: #180a76;
+  color:white;
+}
+
+
+/* ----- Activities Section ---- */
+.activities {
+  flex-direction: column;
+  display: flex;
+  padding: 20px;
+  background-color: #F0D4AE;
+}
+/* --- H3 section ----*/
+h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.activities-parts {
+  display: flex;
+  justify-content: center;
+}
+
+.activity {
+  width: 300px;
+  border-radius: 15px;
+  padding: 15px; 
+}
+
+.activity:hover {
+  background-color: #341A1A;
+  color:#F0D4AE;
+}
+
+.title {
+  font-size: 20px;
+  margin: 20px 0;
+  font-weight: bold;   
+}
+/* ---- Images section ---- */
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+img:hover {
+  width: 200px;
+  height: 200px; 
+}
+
+/* ----- GUIDE SECTION --- */
+.guide {
+  padding: 50px;   
+}
+.guide-sec {
+  display: flex;
+  width: 500px;
+  margin: auto auto;
+  border-right: 5px solid #28141B;
+  border-bottom: 5px solid #cb0e50;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #5eafb9;
+}
+
+.guide-text {
+  padding: 15px;
+  color: #1013d6; 
+}
+.guide-sec:hover {
+  transform: scale(1.2);
+}
+
+ 
